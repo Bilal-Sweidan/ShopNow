@@ -1,0 +1,317 @@
+@font-face {
+    font-family: 'logo';
+    src: url(Dimension.otf);
+   
+}
+@font-face {
+    font-family: 'logo2';
+    src: url(Rosalie.otf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: linear-gradient(150deg,#a7fbf4 60%,#85F4FF 40%,#42C2FF 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+    z-index: -1000;
+}
+header{
+    padding: 0px 0px ;
+    background: #00d4ff;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 150%;
+    /* letter-spacing: 2px; */
+    text-transform: capitalize;
+    font-family: logo;
+    color: brown;
+}
+header nav{
+    width: 15%;
+    float: right;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 0px;
+}
+#card img{
+    width:80%;
+    height: 100%;
+}
+#search-div form{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+#search{
+    width: 90%;
+    height: 100%;
+    border-radius: 15px 0px 0px 15px ;
+    padding-left: 10px;
+    border: none !important;
+    /* box-sizing: content-box; */
+    margin: 0px;
+    margin-right: 0px;
+    font-size:15px;
+}
+#search-div{
+    background-color: white;
+    width: 30%;
+    height: 30px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 3% ;
+    border: 3px solid aquamarine;
+    border-radius: 30px;
+    margin-top: 0.3%;
+}
+#S-div{
+    background-color: aquamarine;
+    width: 12%;
+    height: 120%;
+    border-radius: 0px 15px 15px 0px ;
+    position: static;
+}
+#search-div button{
+    border-radius: 0px 10px 10px 0px;
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+#lan{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#lan select{
+    height: 100%;
+    background: #00d4ff;
+    border: none;
+    font-family: serif;
+    font-size: 80%;
+}
+#sign-in{
+    text-decoration: none;
+    height: 100%;
+    padding: 0% 6%;
+    display: flex;
+    align-items: center;
+    font-family: serif;
+    font-size: 90%;
+    color: black;
+}
+#sign-in:hover{
+    background-color: #42C2FF;
+}
+#lan select:hover{
+    background-color: #42C2FF;
+
+}
+
+
+
+
+/* THE SECTION */
+.titleP{
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 3%;
+    text-transform: capitalize;
+}
+#catagruse,#random{
+    /* background-color: #00d4ff; */
+    width: 95%;
+    height: 80vh;
+    margin: 1% 2.5%;
+    
+}
+#part1,#part2,#p1,#p2{
+    display: flex;
+    justify-content: space-between  ;
+}
+#part1 div , #part2 div{
+    width: 20%;
+    height: 30vh;
+    margin: 2%;
+    /* background-color: aquamarine; */
+    border: 3px solid none;
+    opacity: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 15px 10px #42C2FF;
+}
+#part1 div a , #part2 div a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 200%;
+    text-transform: uppercase;
+}
+#part1 div:hover , #part2 div:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.div-CA1{
+    background-image: url("img/Games.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.div-CA2{
+    background-image: url("img/adobe.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.div-CA3{
+    background-image: url("img/anteviruse.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.div-CA4{
+    background-image: url("img/android.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.div-CA5{
+    background-image: url("img/desktop.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.div-CA6{
+    background-image: url("img/office.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.div-CA7{
+    background-image: url("img/wallpaper.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.div-CA8{
+    background-image: url("img/browser.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.div-CA9{
+    background-image: url("img/ide.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.div-CA10{
+    background-image: url("img/Games.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/*          the shop             */
+
+#section2   {
+    width: 100%;
+    height: 100%;
+}
+.titleP2{
+    width: 60%;
+    height: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    text-transform: capitalize;
+    padding-left: 3%;
+}
+#p1 div, #p2 div{
+    width: 100%;
+    height: 249px;
+    margin: 2% 1%;
+    border: 3px solid none;
+    opacity: 90%;
+    border-radius: 20px;
+    display: block;
+    box-shadow: 1px 1px 15px 10px #42C2FF;
+}
+.div-p header{
+    height: 15%;
+    background: none;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+.div-p img{
+    width: 152px;
+    height: 10%;
+}
+.div-p a {
+    text-decoration: none;
+}
+.div-p h1{
+    display: flex;
+    justify-content: center;
+}
+.div-p footer{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+.div-p footer form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Bpay,.Bcard{
+    width: 50%;
+    height: 100%;
+    background: none;
+    border: none;
+    padding: 0px ;
+    margin-top: 10%;
+    
+}
+.Bpay:hover,.Bcard:hover{
+    background-color: #42C2FF;
+}
+.Bpay{
+    border-radius: 0px 0px 0px 20px;
+}
+.Bcard{
+    border-radius: 0px 0px 20px 0px;
+}
+/* #main-footer{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(141, 173, 232);
+    
+} */
+
+
